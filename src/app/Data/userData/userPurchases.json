@@ -1,0 +1,181 @@
+[
+  {
+    "username": "owner",
+    "email": "owner@gmail.com",
+    "password": "a1",
+    "contactNumber": 1234567890,
+    "totalAmount": 18999,
+    "products": [
+      {
+        "id": 3,
+        "title": "Curved Gaming Monitor",
+        "category": "Gadgets",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "userName": "user",
+    "email": "user123@gmail.com",
+    "contactNumber": 9123456789,
+    "totalAmount": 10196,
+    "products": [
+      {
+        "id": 2,
+        "title": "Smart Air Purifier",
+        "category": "Gadgets",
+        "quantity": 1
+      },
+      {
+        "id": 3,
+        "title": "Puma Men's Crew T-Shirt",
+        "category": "essentials",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "userName": "newUser",
+    "email": "newuser.1234@gmail.com",
+    "contactNumber": "1234567890",
+    "totalAmount": 12098,
+    "products": [
+      {
+        "id": 1,
+        "title": "XPG Spectrix D60G RAM",
+        "category": "Gadgets",
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "title": "Smart Air Purifier",
+        "category": "Gadgets",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "userName": "newUser",
+    "email": "newuser.1234@gmail.com",
+    "contactNumber": "1234567890",
+    "totalAmount": 372654,
+    "products": [
+      {
+        "id": 7,
+        "title": "Wired Gaming Headset",
+        "category": "Gadgets",
+        "quantity": 2
+      },
+      {
+        "id": 8,
+        "title": "RGB Gaming Setup",
+        "category": "Gadgets",
+        "quantity": 3
+      },
+      {
+        "id": 1,
+        "title": "XPG Spectrix D60G RAM",
+        "category": "Gadgets",
+        "quantity": 8
+      },
+      {
+        "id": 3,
+        "title": "Curved Gaming Monitor",
+        "category": "Gadgets",
+        "quantity": 4
+      },
+      {
+        "id": 6,
+        "title": "Gaming CPU Tower",
+        "category": "Gadgets",
+        "quantity": 1
+      },
+      {
+        "id": 11,
+        "title": "RGB Mechanical Keyboard",
+        "category": "Gadgets",
+        "quantity": 4
+      },
+      {
+        "id": 13,
+        "title": "Fast Charging Power Bank",
+        "category": "Gadgets",
+        "quantity": 5
+      },
+      {
+        "id": 9,
+        "title": "Latest 5G Smartphone",
+        "category": "Gadgets",
+        "quantity": 3
+      },
+      {
+        "id": 12,
+        "title": "Smart Wireless Earbuds",
+        "category": "Gadgets",
+        "quantity": 5
+      },
+      {
+        "id": 2,
+        "title": "Smart Air Purifier",
+        "category": "Gadgets",
+        "quantity": 5
+      },
+      {
+        "id": 10,
+        "title": "Portable Bluetooth Speaker",
+        "category": "Gadgets",
+        "quantity": 2
+      },
+      {
+        "id": 4,
+        "title": "Echo Dot (Smart Speaker)",
+        "category": "Gadgets",
+        "quantity": 2
+      },
+      {
+        "id": 16,
+        "title": "Men’s Full Sleeve Crewneck T-Shirt",
+        "category": "essentials",
+        "quantity": 1
+      },
+      {
+        "id": 15,
+        "title": "Skybags Cityscape Backpack",
+        "category": "travels",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "userName": "newUser2",
+    "email": "newuser2.1234@gmail.com",
+    "contactNumber": "9999456789",
+    "totalAmount": 6996,
+    "products": [
+      {
+        "id": 5,
+        "title": "Fitness Smartwatch",
+        "category": "Gadgets",
+        "quantity": 1
+      },
+      {
+        "id": 12,
+        "title": "Smart Wireless Earbuds",
+        "category": "Gadgets",
+        "quantity": 1
+      },
+      {
+        "id": 4,
+        "title": "MARS Tools Of Titans Brush Set",
+        "category": "essentials",
+        "quantity": 1
+      },
+      {
+        "id": 14,
+        "title": "Matein Carry-On Backpack",
+        "category": "travels",
+        "quantity": 1
+      }
+    ]
+  }
+]
