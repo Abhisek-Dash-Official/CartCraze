@@ -1,3 +1,5 @@
+import { cartcrazeDB } from "../../../lib/db";
+
 import fs from "fs";
 import path from "path";
 const filePath = path.join(
@@ -8,8 +10,31 @@ const filePath = path.join(
 export async function POST(req) {
   const user = await req.json();
 
-  let existingData = [];
+  const products = user.products;
+  const allowedCategories = ["gadgets", "essentials", "travels", "cares"];
+  for (const item of products) {
+    const category = item.category.toLowerCase();
 
+    if (!allowedCategories.includes(category)) {
+      return new Response(`Invalid category: ${category}`, { status: 400 });
+    }
+
+    const result = await cartcrazeDB.query(
+      `UPDATE ${category} SET stock = stock - ? WHERE id = ? AND stock >= ?`,
+      [item.quantity, item.id, item.quantity]
+    );
+
+    // Check if update was successful
+    if (result.affectedRows === 0) {
+      return new Response(
+        `Product not found or insufficient stock: ${item.id}`,
+        { status: 409 }
+      );
+    }
+  }
+
+  // Handle JSON file operations
+  let existingData = [];
   try {
     const fileContent = fs.readFileSync(filePath, "utf8");
     if (!(fileContent.trim() === "")) {
